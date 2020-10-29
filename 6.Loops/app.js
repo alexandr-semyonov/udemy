@@ -28,8 +28,8 @@ console.log(backwardsStr);
 
 const num = 10;
 let numFactorial = 1;
-for (let i = num; i >= 1; --i) {
-  numFactorial *= i;
+for (let i = num; i >= 1; i--) {
+  numFactorial *= i;  
 }
 
 console.log(`Factorial of number ${num} is ${numFactorial}`);
