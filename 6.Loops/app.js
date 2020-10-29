@@ -29,7 +29,7 @@ console.log(backwardsStr);
 const num = 10;
 let numFactorial = 1;
 for (let i = num; i >= 1; --i){
-  numFactorial = numFactorial * i;
+  numFactorial *=  i;
 }
-console.log(numFactorial);
+console.log(`Factorial of number ${num} is ${numFactorial}`);
 
